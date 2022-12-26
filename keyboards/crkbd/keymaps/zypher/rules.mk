@@ -1,2 +1,2 @@
 OLED_DRIVER_ENABLE  = yes
-BOOTLOADER = caterina
+WPM_ENABLE = yes
