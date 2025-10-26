@@ -1,4 +1,5 @@
-/* Copyright 2017 REPLACE_WITH_YOUR_NAME
+/*
+ * Copyright 2022 Charly Delay <charly@codesink.dev> (@0xcharly)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,8 +17,7 @@
 
 #pragma once
 
-// Disable backlight
-#define TAPPING_TERM 180
-#undef BACKLIGHT_ENABLE
+#define SPLIT_USB_DETECT
+#define MASTER_LEFT  // or MASTER_RIGHT depending on your setup
 
-// #define PERMISSIVE_HOLD
+#define TAPPING_TERM 150

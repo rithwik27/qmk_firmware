@@ -37,7 +37,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 180
-#define IGNORE_MOD_TAP_INTERRUPT
+
 // #define PERMISSIVE_HOLD
 >>>>>>> 16f3b03adc (init commit)
 #ifdef RGBLIGHT_ENABLE
